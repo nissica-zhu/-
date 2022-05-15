@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>my first website</title>
+<style>
+body 
+{
+	background-image:url(6AFB408EFCEEB9F409659609574698DC_1652538678581.jpeg);
+	background-color:#c7a3a3;
+}
+</style>
+.huojian {
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* 头部样式 */
+.header {
+  padding: 20px;
+  text-align: center;
+}
+
+/* 导航条 */
+.huojian {
+            position: absolute;
+            top: 450px;
+            left: 1100px;
+            animation: zd .4s linear 0s infinite alternate;
+        }
+
+        @keyframes zd {
+            from {
+                transform: translateX(-20px) translateY(-20px);
+            }
+            to {
+                transform: translateX(20px) translateY(20px);
+            }
+        }
+
+        .line1 {
+            width: 2px;
+            height: 166px;
+            background-color: blue;
+            position: absolute;
+            top: 450px;
+            left: 1100px;
+            transform: rotate(45deg);
+            animation: yd 1s linear 0s infinite;
+            opacity: 0;
+        }
+        .line2 {
+            width: 2px;
+            height: 266px;
+            background-color: blue;
+            position: absolute;
+            top: 490px;
+            left: 1150px;
+            transform: rotate(45deg);
+            animation: yd 1s linear .4s infinite;
+            opacity: 0;
+        }
+        .line3 {
+            width: 2px;
+            height: 266px;
+            background-color: blue;
+            position: absolute;
+            top: 540px;
+            left: 1190px;
+            transform: rotate(45deg);
+            animation: yd 1s linear .68s infinite;
+            opacity: 0;
+        }
+        .line4 {
+            width: 2px;
+            height: 266px;
+            background-color: blue;
+            position: absolute;
+            top: 540px;
+            left: 1290px;
+            transform: rotate(45deg);
+            animation: yd 1s linear .2s infinite;
+            opacity: 0;
+        }
+        @keyframes yd {
+            0% {
+                transform: rotate(45deg) translateY(-300px);
+                opacity: 0;
+            }
+            50% {
+                opacity: 1;
+            }
+            100% {
+                transform: rotate(45deg) translateY(300px);
+                opacity: 0;
+            }
+        }
+
+.topnav {
+  background-color:#c7a3a3;
+  overflow: hidden;
+}
+
+/* 导航链接 */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+/* 链接 - 修改颜色 */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* 创建三个相等的列 */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* 左右两侧宽度 */
+.column.side {
+  background-color: #ffffff99;
+  width: 33%;
+}
+
+/* 中间区域宽度 */
+.column.middle {
+  background-color: #ffffff99;
+  width: 34%;
+}
+
+/* 列后面清除浮动 */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* 响应式布局 - 宽度小于600px时设置上下布局 */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+/* 底部样式 */
+.footer {
+  background-color: #f1f1f14f;
+  padding: 10px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+<img class="huojian" src="./huojian.png" alt="">
+<div class="header">
+  <h1>Hello,welcome to my first website!</h1>
+  <p>——朱红妮</p>
+</div>
+
+<div class="topnav">
+  <a href="#">nissica-zhu</a>
+  <a href="#">热爱旅行，向往自由。</a>
+</div>
+
+<div class="row">
+  <div class="column side">
+    <h2>个人信息</h2>
+    <p>姓名：朱红妮</p>
+    <p>兴趣爱好:烘焙,油画,k-pop</p>
+    <p>座右铭：为天地立心，为生民立命，为往圣继绝学，为万世开太平</p>
+
+  </div>
+  
+  <div class="column middle">
+    <h2>主要教育经历</h2>
+    <p>本科：重庆邮电大学</p>
+    <style>
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+</head>
+<body>
+
+<div class="dropdown">
+  <span>各科成绩（大二上）</span>
+  <p>移动鼠标到这里可以查看我的成绩！</p>
+  <div class="dropdown-content">
+    <p>大物 76</p>
+    <p>模电 91</p>
+    <p>英语 80</p>
+    <p>复变函数 78</p>
+    <p>概率论 80</p>
+
+  </div>
+</div>
+
+</body>
+  </div>
+  
+  <div class="column side">
+    <h2>个人愿望</h2>
+    <p>世界和平,国泰民安。</p>
+    <p>疫情退散,亲友健康。</p>
+    <p>学业有成,不负初心。</p>
+  </div>
+</div>
+
+<div class="footer">
+  <p>welcome to contact me!</p>
+</div>
+  
+</body>
+
+<div class="footer">
+  <p>联系方式:
+      QQ:3147686254</p>
+</div>
+
+<style>
+div.img {
+    border: 1px solid #ccc;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+</style>
+</head>
+<body>
+
+<h2 style="text-align:center">me and my friends</h2>
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="img_fjords.jpg">
+      <img src="-5e238f4456da84a4.jpg" alt="Trolltunga Norway" width="300" height="200">
+    </a>
+    <div class="desc">with 舒舒</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="img_forest.jpg">
+      <img src="B612Kaji_20210224_132100_854.jpg" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc">with 欣欣</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="img_lights.jpg">
+      <img src="IMG_20210101_110814_mh1609502589713.jpg" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc">with 潇潇</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="img_mountains.jpg">
+      <img src="retouch_2021052622551983.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">enioy the picnic</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+  
+</div>
+
+</body>
+    </html>
